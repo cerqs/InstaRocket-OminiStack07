@@ -1,0 +1,20 @@
+yarn init -y
+yarn add express
+yarn add nodemon -d
+yarn add mongoose
+yarn add cors - segunraça
+yarn add socket.io
+
+
+/* IMAGENS
+yarn add multer = arquivos via body do json
+yarn add sharp   manipulação de imagens 
+    require path   manipular caminhos  obs vem com express
+    requeire fs   manipular arquivos  obs vem com express 
+    
+    Criar urls para imagens
+        app.use('/files', express.static(path.resolve(__dirname,'..','uploads','resized')))
+*//
+
+
+mongodb+srv://instaRocket:<password>@cluster0-gq20c.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority
