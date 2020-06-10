@@ -1,0 +1,4 @@
+yarn add create-react-app
+yarn add react-router-dom
+yarn add axios
+yarn add soket.io-client

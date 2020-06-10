@@ -8,7 +8,7 @@ module.exports = {
 
         await post.save();
 
-        req.io.emit('post',post);
+        req.io.emit('like',post);
         
         return res.json(post)
 
