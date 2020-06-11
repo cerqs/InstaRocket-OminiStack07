@@ -1,0 +1,22 @@
+npm install react-native-cli
+react-native init Mobile
+
+/*ANTIGO
+npm install react-navigation /*componente de navegação */
+            react-native-gesture-handler/*gestos para navegar*/
+            react-native link react-native-gesture-handler /* link*/ --antigoo
+            
+*/
+
+
+/* DOCS  react navigation
+npm install @react-navigation/native
+npm install @react-navigation/stack
+npm install react-native-reanimated 
+            react-native-gesture-handler 
+            react-native-screens 
+            react-native-safe-area-context 
+            @react-native-community/masked-view
+
+react-native run-android
+npm install axios
